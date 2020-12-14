@@ -13,11 +13,15 @@ stages:
           # 這裡是為了告訴要處理的git來源為何
           git.repoName: ${CICD_GIT_REPO_NAME}
           git.branch: ${CICD_GIT_BRANCH}
+          # 使用者參數(部屬) 預設都是true
+          db.enabled: true
+          db.gui: true
+          # 使用者參數(資料庫)
           db.type: mariadb
-          # 使用者資料庫管理密碼
+          # 使用者參數(資料庫)帳號密碼
           db.username: bear
           db.password: bearisbear
-          # 使用者初始想要建立的資料庫名稱
+          # 使用者參數(資料庫)資料庫名稱
           db.name: health
 
 # 單一專案多個資料庫部屬(2/3)
@@ -34,12 +38,16 @@ stages:
           # 這裡是為了告訴要處理的git來源為何
           git.repoName: ${CICD_GIT_REPO_NAME}
           git.branch: ${CICD_GIT_BRANCH}
+          # 使用者參數(部屬) 預設都是true
+          db.enabled: true
+          db.gui: true
+          # 使用者參數(資料庫)
           db.type: mariadb
-          # 使用者資料庫管理密碼
+          # 使用者參數(資料庫)帳號密碼
           db.username: bear22
           db.password: bearisbear22
-          # 使用者初始想要建立的資料庫名稱
-          db.name: health11
+          # 使用者參數(資料庫)資料庫名稱
+          db.name: health22
 
 # 單一專案多個資料庫部屬(3/3)
 - name: Deploy app-db-test3
@@ -55,11 +63,15 @@ stages:
           # 這裡是為了告訴要處理的git來源為何
           git.repoName: ${CICD_GIT_REPO_NAME}
           git.branch: ${CICD_GIT_BRANCH}
+          # 使用者參數(部屬) 預設都是true
+          db.enabled: true
+          db.gui: true
+          # 使用者參數(資料庫)
           db.type: mariadb
-          # 使用者資料庫管理密碼
+          # 使用者參數(資料庫)帳號密碼
           db.username: bear33
           db.password: bearisbear33
-          # 使用者初始想要建立的資料庫名稱
+          # 使用者參數(資料庫)資料庫名稱
           db.name: health33
 
 # mariadb:10.5
@@ -76,12 +88,16 @@ stages:
           # 這裡是為了告訴要處理的git來源為何
           git.repoName: ${CICD_GIT_REPO_NAME}
           git.branch: ${CICD_GIT_BRANCH}
+          # 使用者參數(部屬) 預設都是true
+          db.enabled: true
+          db.gui: true
+          # 使用者參數(資料庫)
           db.type: mariadb
           db.tag: 10.5
-          # 使用者資料庫管理密碼
+          # 使用者參數(資料庫)帳號密碼
           db.username: bear44
           db.password: bearisbear44
-          # 使用者初始想要建立的資料庫名稱
+          # 使用者參數(資料庫)資料庫名稱
           db.name: health44
 
 # mariadb:10.4
@@ -98,12 +114,16 @@ stages:
           # 這裡是為了告訴要處理的git來源為何
           git.repoName: ${CICD_GIT_REPO_NAME}
           git.branch: ${CICD_GIT_BRANCH}
+          # 使用者參數(部屬) 預設都是true
+          db.enabled: true
+          db.gui: true
+          # 使用者參數(資料庫)
           db.type: mariadb
           db.tag: 10.4
-          # 使用者資料庫管理密碼
+          # 使用者參數(資料庫)帳號密碼
           db.username: bear55
           db.password: bearisbear55
-          # 使用者初始想要建立的資料庫名稱
+          # 使用者參數(資料庫)資料庫名稱
           db.name: health55
 
 # mariadb:10.3
@@ -120,12 +140,16 @@ stages:
           # 這裡是為了告訴要處理的git來源為何
           git.repoName: ${CICD_GIT_REPO_NAME}
           git.branch: ${CICD_GIT_BRANCH}
+          # 使用者參數(部屬) 預設都是true
+          db.enabled: true
+          db.gui: true
+          # 使用者參數(資料庫)
           db.type: mariadb
           db.tag: 10.3
-          # 使用者資料庫管理密碼
+          # 使用者參數(資料庫)帳號密碼
           db.username: bear66
           db.password: bearisbear66
-          # 使用者初始想要建立的資料庫名稱
+          # 使用者參數(資料庫)資料庫名稱
           db.name: health66
 
 # mariadb:10.2
@@ -142,10 +166,14 @@ stages:
           # 這裡是為了告訴要處理的git來源為何
           git.repoName: ${CICD_GIT_REPO_NAME}
           git.branch: ${CICD_GIT_BRANCH}
+          # 使用者參數(部屬) 預設都是true
+          db.enabled: true
+          db.gui: true
+          # 使用者參數(資料庫)
           db.type: mariadb
           db.tag: 10.2
-          # 使用者資料庫管理密碼
+          # 使用者參數(資料庫)帳號密碼
           db.username: bear77
           db.password: bearisbear77
-          # 使用者初始想要建立的資料庫名稱
+          # 使用者參數(資料庫)資料庫名稱
           db.name: health77
